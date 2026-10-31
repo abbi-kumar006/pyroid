@@ -1,0 +1,11 @@
+int(input())
+temp=n 
+bareen=0
+while n>0:
+  last=n%10
+  bareen=bareen*10+last
+  n=n//10
+if bareen==temp:
+  print("Palindrome")
+else:
+  print("Not Palindrome")
