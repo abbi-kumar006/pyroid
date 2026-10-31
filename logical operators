@@ -1,0 +1,8 @@
+a=int(input())
+b=int(input())
+# and operators
+print(a>20 and b==5)
+# or operators
+print (a>20 or b<10)
+# not operators
+print(not(a>20 and b==5))
